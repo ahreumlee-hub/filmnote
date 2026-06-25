@@ -216,6 +216,7 @@ NOTE_LINE_EN = {
     "2013 / 바즈 루어만 / 미국, 오스트레일리아": "2013 / Baz Luhrmann / United States, Australia",
     "고양이가 정말 있었는지, 우물은 정말 있었는지, 벤은 정말 비닐하우스를 태웠는지. 그럴듯한 추정을 가능하지만 무엇이 정답일지 누구도 알 수 없다. 정답을 원하는 시대에 이 오묘한, 어쩌면 감독도 정답을 모를 것 같은 이 영화는 매력적이다.": "Was there really a cat, was there really a well, did Ben really burn greenhouses? Plausible guesses are possible, but no one can know the answer. In an age that wants answers, this strange film, whose answer even the director may not know, is magnetic.",
     "아름이 이 영화를 가장 좋아하는 영화로 꼽은 이유는 명확하다. 모호하고, 묘하고, 아리송한 것을 좋아하기 때문이다. 이 영화는 끝까지 명확한 답을 알려주지 않는다. 쉽게 말해 모든 것이 열린 결말인 이 영화는 모호해서 매력적이다.": "The reason Areum names this as her favorite film is clear: she likes things that are ambiguous, odd, and elusive. The film never gives a definite answer. In short, everything remains open, and that ambiguity is what makes it compelling.",
+    "민제가 이 영화를 가장 좋아하는 영화로 꼽은 이유는 명확하다. 모호하고, 묘하고, 아리송한 것을 좋아하기 때문이다. 이 영화는 끝까지 명확한 답을 알려주지 않는다. 쉽게 말해 모든 것이 열린 결말인 이 영화는 모호해서 매력적이다.": "The reason Minje names this as his favorite film is clear: he likes things that are ambiguous, odd, and elusive. The film never gives a definite answer. In short, everything remains open, and that ambiguity is what makes it compelling.",
     "인상적인 요소 하나": "One Striking Element",
     "기억에 남는 디테일": "Memorable Details",
     "나와의 연결": "Personal Connection",
