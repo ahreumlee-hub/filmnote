@@ -83,7 +83,7 @@ button:hover {
 .maintitle {
     text-align: center;
     width: 81.4vw;
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 700;
     font-size: 17px;
     padding: 50px 30px;
@@ -98,7 +98,7 @@ button:hover {
     z-index: 1000;
     display: flex;
     gap: 8px;
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 700;
     font-size: 13px;
 }
@@ -142,7 +142,7 @@ button:hover {
 }
 
 .dsc p {
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 17px;
     margin: 10px 0;
@@ -173,7 +173,7 @@ button:hover {
 
 .maintxt1 p,
 .maintxt2 p {
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 17px;
     margin: 10px 0;
@@ -189,7 +189,7 @@ button:hover {
     border-radius: 20px;
     border: 1px solid black;
     background-color: white;
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 17px;
     color: black;
@@ -259,7 +259,7 @@ button:hover {
 .list a {
     text-decoration: none;
     color: black;
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 17px;
     padding: 10px 15px 10px 15px;
@@ -409,7 +409,7 @@ footer {
 }
 
 .film-meta h2 {
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
@@ -448,7 +448,7 @@ footer {
     border: 1px solid black;
     box-sizing: border-box;
     padding: 42px;
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.78;
@@ -489,7 +489,7 @@ footer {
 }
 
 .maintxt2 ul {
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 500;
     font-size: 17px;
     text-align: left;
@@ -504,7 +504,7 @@ ul li {
 footer p {
     margin-top: 150px;
     padding: 60px;
-    font-family: "sandoll-jebi2", sans-serif;
+    font-family: "sandoll-jebi2", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
     font-weight: 300;
     font-size: 11px;
     text-align: center;
