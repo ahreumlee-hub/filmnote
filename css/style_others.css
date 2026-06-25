@@ -1,0 +1,590 @@
+@font-face {
+    font-family: 'DXGothic70';
+    src: url(../srcs/font/DXGothic70.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic60';
+    src: url(../srcs/font/DXGothic60.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic40';
+    src: url(../srcs/font/DXGothic40.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic30';
+    src: url(../srcs/font/DXGothic30.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic20';
+    src: url(../srcs/font/DXGothic20.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic10';
+    src: url(../srcs/font/DXGothic10.ttf) format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #ffc000;
+    margin: 0;
+    /* 기본 마진 제거 */
+    padding: 0;
+    /* 기본 패딩 제거 */
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    /* 세로 방향 정렬 */
+    align-items: center;
+    /* 자식 요소들을 중앙 정렬 */
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffc000;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.header button {
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: #ffc000;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: #ffc000;
+}
+
+.maintitle {
+    text-align: center;
+    width: 81.4vw;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 50px 30px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.lang-toggle {
+    position: fixed;
+    top: 47px;
+    right: 30px;
+    z-index: 1000;
+    display: flex;
+    gap: 8px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.lang-toggle button {
+    appearance: none;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: black;
+    font: inherit;
+    line-height: 1;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.lang-toggle button:hover,
+.lang-toggle button.is-active {
+    border-bottom-color: black;
+}
+
+
+.dscr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 115px;
+}
+
+.dsc {
+    width: 85vw;
+    max-width: 980px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* 수평 정렬 및 양끝 맞춤 */
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+
+.dsc p {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 10px 0;
+    /* 상하 간격 조정 */
+    flex: 1;
+    /* 각 p 요소가 동일한 너비를 차지하도록 설정 */
+    text-align: left;
+    /* 텍스트를 가운데 정렬 */
+}
+
+.maintxt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.maintxt1,
+.maintxt2 {
+    width: 60vw;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    line-height: 23px;
+}
+
+.maintxt1 p,
+.maintxt2 p {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 10px 0;
+    /* 상하 간격 조정 */
+    text-align: left;
+    /* 텍스트를 가운데 정렬 */
+}
+
+.download_button {
+    padding: 10px;
+    right: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+}
+
+.download_button a {
+    transition: 0.3s;
+}
+
+.download_button:hover {
+    background-color: black;
+}
+
+.download_button:hover a {
+    color: white;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.gallery {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2열로 제한 */
+    gap: 10px;
+    /* 이미지 간 간격 */
+    background-color: white;
+    /* 배경색 설정 */
+    border: 1px solid black;
+    /* 테두리 설정 */
+    box-sizing: border-box;
+    /* 패딩과 보더를 포함한 크기 계산 */
+    padding: 10px;
+    /* 갤러리 내부 여백 */
+}
+
+.gallery img,
+.gallery video {
+    width: 100%;
+    height: auto;
+    /* 이미지 비율을 유지하면서 높이를 자동으로 조절 */
+    object-fit: contain;
+    /* 이미지가 잘리지 않고 컨테이너에 맞춤 */
+    box-sizing: border-box;
+    /* 패딩과 보더를 포함한 크기 계산 */
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 830px;
+    padding: 80px 0;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 15px 10px 15px;
+    width: 80%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.list a:last-child {
+    border-bottom: 1px solid black;
+}
+
+.list a:hover {
+    background-color: #f0f0f0;
+}
+
+.list a.list-complete:hover {
+    background-color: #ffc000;
+}
+
+.list a::before {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 50%;
+    width: 17px;
+    line-height: 17px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: opacity 0.3s;
+}
+
+.list a.list-complete:hover::before {
+    content: '○';
+    font-size: 12px;
+}
+
+.list a.list-upcoming:hover::before {
+    content: '×';
+    font-size: 16px;
+}
+
+.list a:hover::before {
+    opacity: 1;
+}
+
+.list a .number {
+    width: 40px;
+    flex: 0 0 40px;
+    color: #bbb;
+}
+
+.list a .title {
+    flex: 1;
+    padding-left: 8px;
+}
+
+.list a .description {
+    margin-left: 20px;
+    max-width: 54%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.35;
+    transition: all 0.3s;
+    color: #bbb;
+    position: relative;
+    text-align: right;
+}
+
+.list a .description::before {
+    content: attr(data-hover);
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: black;
+    text-align: right;
+    /* 우측 정렬 */
+}
+
+.list a:hover .description {
+    color: transparent;
+}
+
+.list a:hover .description::before {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    position: relative;
+}
+
+.dsc-img {
+    flex: 1;
+    align-self: flex-start;
+    /* 이미지가 상단에 정렬되도록 설정 */
+    max-width: 400px;
+    /* 이미지 최대 너비 설정 */
+    height: auto;
+    margin: 10px 0;
+    margin: 10px 10px 10px 100px;
+    border: 1px solid black;
+}
+
+.dsc-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 3;
+    line-height: 22px;
+    padding-left: 10px;
+}
+
+.film-detail {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.film-meta {
+    width: 100%;
+    gap: 22px;
+    padding: 8px 10px;
+}
+
+.film-poster {
+    width: min(240px, 28vw);
+    max-height: 360px;
+    object-fit: contain;
+    align-self: flex-start;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px 10px 10px 20px;
+}
+
+.film-kicker {
+    color: #777;
+}
+
+.film-meta h2 {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0;
+    word-break: keep-all;
+}
+
+.film-meta-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 40px;
+    max-width: 760px;
+}
+
+.film-meta-list p {
+    border-top: 1px solid black;
+    padding: 10px 0;
+}
+
+.film-meta-list span {
+    display: block;
+    color: #777;
+    margin-bottom: 4px;
+}
+
+.film-note-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.film-note {
+    width: min(720px, 85vw);
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 42px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.78;
+    word-break: keep-all;
+}
+
+.film-note * {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.film-note p {
+    margin: 0 0 24px 0;
+    line-height: 1.78;
+}
+
+.film-note .note-heading {
+    margin: 48px 0 18px 0;
+    padding-top: 14px;
+    border-top: 1px solid black;
+    line-height: 1.35;
+}
+
+.film-note .note-heading:first-child {
+    margin-top: 0;
+}
+
+.film-note p:last-child {
+    margin-bottom: 0;
+}
+
+.film-note .empty-note {
+    color: #777;
+}
+
+#box {
+    transition: width 0.3s;
+}
+
+.maintxt2 ul {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    /* 텍스트를 가운데 정렬 */
+    margin: 30px 0 30px 20px;
+}
+
+ul li {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+footer p {
+    margin-top: 150px;
+    padding: 60px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+}
+
+.list .item {
+    padding: 10px 0 10px 15px;
+    width: 80%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list .item:last-child {
+    border-bottom: 1px solid black;
+}
+
+#prevPageBtn {
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    position: fixed;
+    margin-right: 60vw;
+}
+
+#nextPageBtn {
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    position: fixed;
+    margin-left: 60vw;
+}
+
+@media (max-width: 760px) {
+    .dsc {
+        width: 90vw;
+    }
+
+    .film-meta h2 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+    .film-meta-list {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .film-detail {
+        flex-direction: column;
+    }
+
+    .film-poster {
+        width: min(260px, 72vw);
+        max-height: none;
+        margin: 10px auto;
+    }
+
+    .film-note {
+        width: 90vw;
+        padding: 26px;
+    }
+
+    .list {
+        width: 90vw;
+    }
+
+    .list a {
+        width: 86%;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .list a .description {
+        margin-left: 0;
+        max-width: 100%;
+        text-align: left;
+        white-space: normal;
+    }
+}

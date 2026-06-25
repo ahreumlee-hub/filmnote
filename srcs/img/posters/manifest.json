@@ -1,0 +1,264 @@
+{
+  "posters": {
+    "버닝": {
+      "file": "srcs/img/posters/001-burning-2018.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/17159/own/image?imageType=P",
+      "tpdb_title": "Burning",
+      "year": "2018",
+      "source_image": "http://file.koreafilm.or.kr/poster/00/04/54/DPK012868_01.jpg",
+      "source_label": "KMDb Korean main poster"
+    },
+    "블루 발렌타인": {
+      "file": "srcs/img/posters/002-blue-valentine-2010.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/23035",
+      "tpdb_title": "Blue Valentine",
+      "year": "2010",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/23035/Qj0fUr5WMeEowWmuX1ZqGiF5HrVrCkKgKUDRkP5h.jpg"
+    },
+    "릴리 슈슈의 모든 것": {
+      "file": "srcs/img/posters/003-all-about-lily-chou-chou-2001.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/62466",
+      "tpdb_title": "All About Lily Chou-Chou",
+      "year": "2001",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/62466/GhZ9I5QNjYgtRJQtMelTgBP5GHIPhfonR11KkxtG.jpg"
+    },
+    "하나와 앨리스": {
+      "file": "srcs/img/posters/004-hana-and-alice-2004.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/10836",
+      "tpdb_title": "Hana & Alice",
+      "year": "2004",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/10836/WvmnGlFVtBt11chHb8o0YUUWqWLQl3C2XZf3X5V9.jpg"
+    },
+    "세계의 주인": {
+      "file": "srcs/img/posters/005-the-world-of-love-2025.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/39917/own/image?imageType=P",
+      "tpdb_title": "세계의 주인",
+      "year": "2025",
+      "source_image": "http://file.koreafilm.or.kr/poster/99/19/10/DPK024438_01.jpg",
+      "source_label": "KMDb Korean main poster"
+    },
+    "박화영": {
+      "file": "srcs/img/posters/006-park-hwa-young-2018.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/17356/own/image?imageType=P",
+      "tpdb_title": "박화영",
+      "year": "2018",
+      "source_image": "http://file.koreafilm.or.kr/poster/00/04/56/DPK013011_01.jpg",
+      "source_label": "KMDb Korean main poster"
+    },
+    "위대한 개츠비": {
+      "file": "srcs/img/posters/007-the-great-gatsby-2013.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/33052",
+      "tpdb_title": "The Great Gatsby",
+      "year": "2013",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/33052/AEouoZZuZyVaeI593x6FYl0DzLG6pOpk6HsFf7FF.jpg"
+    },
+    "라스트 홀리데이": {
+      "file": "srcs/img/posters/008-last-holiday-2006.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/62637",
+      "tpdb_title": "Last Holiday",
+      "year": "2006",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/62637/9D0pDBwa08GdE20gFeTe0YlJCuXPpyvR60BB7Pwb.jpg"
+    },
+    "원 배틀 애프터 어나더": {
+      "file": "srcs/img/posters/009-one-battle-after-another-2025.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/1734743",
+      "tpdb_title": "One Battle After Another",
+      "year": "2025",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/1734743/mn8taza4dlOin6iRbDI3Giq8tKF3DpcU5Q4QTO9t.jpg"
+    },
+    "세 가지 색: 블루": {
+      "file": "srcs/img/posters/010-three-colors-blue-1993.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/30766",
+      "tpdb_title": "Three Colors: Blue",
+      "year": "1993",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/30766/XYYsKLHBqrjkcvbV7ckKoOAbyEIbHV1rnzVWhkyM.jpg"
+    },
+    "시라트": {
+      "file": "srcs/img/posters/011-sirat-2025.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/2872711",
+      "tpdb_title": "Sirāt",
+      "year": "2025",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/2872711/ZYkFpPCVdKn3aGKgXJXmi4MNEBYYERSP3txEIMwN.jpg"
+    },
+    "마이 선샤인": {
+      "file": "srcs/img/posters/012-my-sunshine-2024.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/2624432",
+      "tpdb_title": "My Sunshine",
+      "year": "2024",
+      "source_image": "https://image.tmdb.org/t/p/original//tY3U8tmWsWkP24WoD9e8sfDC1PU.jpg"
+    },
+    "물에 빠진 나이프": {
+      "file": "srcs/img/posters/013-drowning-love-2016.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/358031",
+      "tpdb_title": "Drowning Love",
+      "year": "2016",
+      "source_image": "https://image.tmdb.org/t/p/original//PYIgcBiMhGBq81MMPbhwIDdDUB.jpg"
+    },
+    "혐오스런 마츠코의 일생": {
+      "file": "srcs/img/posters/014-memories-of-matsuko-2006.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/98149",
+      "tpdb_title": "Memories of Matsuko",
+      "year": "2006",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/98149/tPXHjKpXsaoQJRosIfKGXE5CnSllpqRt7gGz1YNS.jpg"
+    },
+    "문라이트킹덤": {
+      "file": "srcs/img/posters/015-moonrise-kingdom-2012.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/21585",
+      "tpdb_title": "Moonrise Kingdom",
+      "year": "2012",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/21585/S0VYyJVaAk35Nw1OXhdLUy0Mcdy7NQci1taDQqy1.jpg"
+    },
+    "나이트 크롤러": {
+      "file": "srcs/img/posters/016-nightcrawler-2014.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/9798",
+      "tpdb_title": "Nightcrawler",
+      "year": "2014",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/9798/mv0I2smEMLy6ChfHzUTXZZhrbPjwgh35hbs3DbC4.jpg"
+    },
+    "부고니아": {
+      "file": "srcs/img/posters/017-bugonia-2025.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/932092",
+      "tpdb_title": "Bugonia",
+      "year": "2025",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/932092/Vram3KKlPaffNeDWumSsqTiuBjX5BNm3aQsE8US1.jpg"
+    },
+    "만약에 우리": {
+      "file": "srcs/img/posters/018-once-we-were-us-2025.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/40416/own/image?imageType=P",
+      "tpdb_title": "만약에 우리",
+      "year": "2025",
+      "source_image": "http://file.koreafilm.or.kr/poster/99/19/21/DPK024958_01.jpg",
+      "source_label": "KMDb Korean poster"
+    },
+    "퐁네프의 연인들": {
+      "file": "srcs/img/posters/019-the-lovers-on-the-bridge-1991.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/403522",
+      "tpdb_title": "The Lovers on the Bridge",
+      "year": "1991",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/403522/IIyZnOl8uTMo6wrhkGEKKtEwvZUqRQCTw3CpMKUh.jpg"
+    },
+    "셔터 아일랜드": {
+      "file": "srcs/img/posters/020-shutter-island-2010.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/19987",
+      "tpdb_title": "Shutter Island",
+      "year": "2010",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/19987/yOiyIbGxFU7dWHM3AdXPsfKJWDTGKQ0ld3Ha03yp.jpg"
+    },
+    "시카리오": {
+      "file": "srcs/img/posters/021-sicario-2015.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/73",
+      "tpdb_title": "Sicario",
+      "year": "2015",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/73/1CWMxfCygMS04y0vW3ZnLQW27l2qIszPuooFQCAc.jpg"
+    },
+    "세 가지 색: 화이트": {
+      "file": "srcs/img/posters/022-three-colors-white-1994.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/30765",
+      "tpdb_title": "Three Colors: White",
+      "year": "1994",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/30765/X3EVXKIoUaYSZFVGPSXa5YQhZHBJXbPAgvUnILSI.jpg"
+    },
+    "씨너스: 죄인들": {
+      "file": "srcs/img/posters/023-sinners-2025.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/2070360",
+      "tpdb_title": "Sinners",
+      "year": "2025",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/2070360/35TthWlSQjKucjJHMcer4VKy5WKqWDD9HgPp6xNa.jpg"
+    },
+    "탑건: 매버릭": {
+      "file": "srcs/img/posters/024-top-gun-maverick-2022.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/13617",
+      "tpdb_title": "Top Gun: Maverick",
+      "year": "2022",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/13617/ykOQ85NBGrlBGDRLzHq5uFiNAa3R5PyWq74j4AHH.jpg"
+    },
+    "베놈": {
+      "file": "srcs/img/posters/025-venom-2018.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/4755",
+      "tpdb_title": "Venom",
+      "year": "2018",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/4755/cIqPjx98ZtbILVhbG6PrMfqYKgppaQ74nQWZZ2lf.jpg"
+    },
+    "호퍼스": {
+      "file": "srcs/img/posters/026-hoppers-2026.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/2340047",
+      "tpdb_title": "Hoppers",
+      "year": "2026",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/2340047/lTvEgHi0KPdQV1VzbfMyCcXhqNvr6U3OVVqm5lnE.jpg"
+    },
+    "올빼미": {
+      "file": "srcs/img/posters/027-the-night-owl-2022.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/32233/own/image?imageType=P",
+      "tpdb_title": "올빼미",
+      "year": "2022",
+      "source_image": "http://file.koreafilm.or.kr/poster/99/17/82/DPK019622_01.jpg",
+      "source_label": "KMDb Korean first poster"
+    },
+    "아나콘다": {
+      "file": "srcs/img/posters/028-anaconda-1997.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/21925",
+      "tpdb_title": "Anaconda",
+      "year": "1997",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/21925/KQtoIGtoVlgzkeKQ2NAMcZTw35aQwN5gb5ONsyHA.jpg"
+    },
+    "매트릭스2": {
+      "file": "srcs/img/posters/029-the-matrix-reloaded-2003.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/634",
+      "tpdb_title": "The Matrix Reloaded",
+      "year": "2003",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/634/7kqFIa5NXf0aBWxjTQfWiWbVWcW8ZF6ycthSumNw.jpg"
+    },
+    "매트릭스3": {
+      "file": "srcs/img/posters/030-the-matrix-revolutions-2003.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/635",
+      "tpdb_title": "The Matrix Revolutions",
+      "year": "2003",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/635/1E9eainsz4rtgWKGukwDGWIKhIwyyOpLbZsCQinO.jpg"
+    },
+    "프로젝트 Y": {
+      "file": "srcs/img/posters/031-project-y-2026.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/39912/own/image?imageType=P",
+      "tpdb_title": "프로젝트 Y",
+      "year": "2026",
+      "source_image": "http://file.koreafilm.or.kr/poster/99/19/09/DPK024427_01.jpg",
+      "source_label": "KMDb Korean launching poster"
+    },
+    "바비": {
+      "file": "srcs/img/posters/032-barbie-2023.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/2331509",
+      "tpdb_title": "Barbie",
+      "year": "2023",
+      "source_image": "https://image.tmdb.org/t/p/original//prcSNmRuYnnEwP3MfL5qH4mIz0t.jpg"
+    },
+    "세 가지 색: 레드": {
+      "file": "srcs/img/posters/033-three-colors-red-1994.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/30767",
+      "tpdb_title": "Three Colors: Red",
+      "year": "1994",
+      "source_image": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/30767/Iv380cKbxNN73ZXcZouFVIlcFm45OLbZljS4nVhs.jpg"
+    },
+    "핫스팟: 우주인 출몰 주의!": {
+      "file": "srcs/img/posters/034-the-hot-spot-2025.jpg",
+      "tpdb_page": "https://theposterdb.com/posters/2485930",
+      "tpdb_title": "The Hot Spot",
+      "year": "2025",
+      "source_image": "https://image.tmdb.org/t/p/original//uuAEfL8rmzD0yOR61JZiuYBdapI.jpg"
+    },
+    "모두가 자신의 무가치함과 싸우고 있다": {
+      "file": "srcs/img/posters/035-poster-2026.jpg",
+      "tpdb_page": "https://www.netflix.com/kr/title/82189639",
+      "tpdb_title": "모두가 자신의 무가치함과 싸우고 있다",
+      "year": "2026",
+      "source_image": "https://occ-0-988-395.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfr1bn2PLZ2__cR7gXqHJfeX416AI9bhc5KiISDe-daU75gAturh3dBKRU-MLYypNUjBSRjb0AtcpeueS-3mpzSP9KnSSdHy752f.jpg?r=a42"
+    },
+    "우리들": {
+      "file": "srcs/img/posters/036-the-world-of-us-2016.jpg",
+      "tpdb_page": "https://www.kmdb.or.kr/db/kor/detail/movie/K/15227/own/image?imageType=P",
+      "tpdb_title": "우리들",
+      "year": "2016",
+      "source_image": "http://file.koreafilm.or.kr/poster/00/04/26/DPK011608_01.jpg",
+      "source_label": "KMDb Korean poster"
+    }
+  },
+  "misses": []
+}

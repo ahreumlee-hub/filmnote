@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'DXGothic70';
+    src: url(../srcs/font/DXGothic70.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic60';
+    src: url(../srcs/font/DXGothic60.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic40';
+    src: url(../srcs/font/DXGothic40.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic30';
+    src: url(../srcs/font/DXGothic30.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic20';
+    src: url(../srcs/font/DXGothic20.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DXGothic10';
+    src: url(../srcs/font/DXGothic10.ttf) format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background-color: #ffc000;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    width: 100%;
+    z-index: 999;
+    background-color: #ffc000;
+}
+
+.maintitle {
+    text-align: center;
+    width: 852px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 50px 30px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.lang-toggle {
+    position: fixed;
+    top: 47px;
+    right: 30px;
+    z-index: 1000;
+    display: flex;
+    gap: 8px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.lang-toggle button {
+    appearance: none;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: black;
+    font: inherit;
+    line-height: 1;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.lang-toggle button:hover,
+.lang-toggle button.is-active {
+    border-bottom-color: black;
+}
+
+.dscr-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsc {
+    position: relative;
+    width: 100%;
+    max-width: 830px;
+    padding: 40px 40px 160px 40px;
+    margin-top: 116.5px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.right {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 10px);
+    right: -10px;
+}
+
+.dscrkr,
+.dscren {
+    position: relative;
+    width: 400px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.dscrkr {
+    line-height: 27px;
+}
+
+.dscren {
+    line-height: 24px;
+}
+
+.rotate {
+    display: inline-block;
+    transform-origin: center center;
+}
+
+#leeareum1,
+#leeareum2 {
+    display: inline-block;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+#leeareum1::after,
+#leeareum2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 1.5px;
+    background-color: black;
+}
+
+.weblink1,
+.weblink2 {
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    background-color: #ffc000;
+    border: 1px solid black;
+    z-index: 999;
+}
+
+#leeareum1:hover > .weblink1,
+#leeareum2:hover > .weblink2 {
+    display: block;
+}
+
+.leeareumdotcom1,
+.leeareumdotcom2 {
+    position: absolute;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    left: 15px;
+    top: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: black; /* 링크 색상을 검정색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+    cursor: pointer; /* 포인터 커서 사용 */
+}
+
+a:hover {
+    text-decoration: underline; /* 호버 시 밑줄 표시 */
+}
+a:visited {
+    color: black;
+}
+
+#drawer {
+    position: relative;
+    width: calc(50% + 70px);
+    height: calc(100% + 25px);
+    left: calc(50% - 50px);
+    top: -15px;
+    background-color: #ffc000;
+    border-left: 1px solid black;
+}
+
+#mydiv_01,
+#mydiv_02,
+#mydiv_03 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.mydiv:active {
+    left: 0;
+    top: 0;
+}
+
+.listdivider {
+    position: absolute;
+    border-top: 1px solid black;
+    background-color: #ffc000;
+    width: 100%;
+    height: calc(100% + 25px);
+}
+
+.a,
+.box {
+    position: absolute;
+    left: 20%;
+    top: 0;
+    height: 170px;
+    width: 240px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box:hover > p {
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+p {}
+
+.text {
+    text-align: center;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    line-height: 15px;
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dscren,
+.dscrkr {
+    margin: 0 20px;
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+.para-space {
+    margin-top: 10px;
+}
+
+.date {
+    position: absolute;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    z-index: 5;
+    bottom: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 27px;
+}
+
+.content-row {
+    position: absolute;
+    display: flex;
+    max-width: 830px;
+}
+
+#box {
+    transition: width 0.3s;
+}
+
+.list-1,
+.list-2,
+.list-3 {
+    position: absolute;
+    width: 830px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.list-3 {
+    height: 10px;
+    top: 900px;
+}
+
+.list-2 {
+    height: 40px;
+    top: 920px;
+}
+
+.list-1 {
+    height: 80px;
+    top: 970px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#wrap {
+    position: relative;
+    width: 100%;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 830px;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 80px 0;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 15px 10px 15px;
+    width: 80%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+
+
+
+.list a:last-child {
+    border-bottom: 1px solid black;
+}
+
+.list a:hover {
+    background-color: #f0f0f0;
+}
+
+.list a.list-complete:hover {
+    background-color: #ffc000;
+}
+
+.list a::before {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 50%;
+    width: 17px;
+    line-height: 17px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: opacity 0.3s;
+}
+
+.list a.list-complete:hover::before {
+    content: '○';
+    font-size: 12px;
+}
+
+.list a.list-upcoming:hover::before {
+    content: '×';
+    font-size: 16px;
+}
+
+.list a:hover::before {
+    opacity: 1;
+}
+
+.list a .number {
+    width: 40px;
+    flex: 0 0 40px;
+    color: #bbb;
+}
+
+.list a .title {
+    flex: 1;
+    padding-left: 8px;
+}
+
+.list a .description {
+    margin-left: 20px;
+    max-width: 54%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.35;
+    transition: all 0.3s;
+    color: #bbb;
+    position: relative;
+    text-align: right;
+}
+
+.list a .description::before {
+    content: attr(data-hover);
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: black; /* 원하는 색상으로 변경 가능 */
+    text-align: right; /* 우측 정렬 */
+}
+
+.list a:hover .description {
+    color: transparent;
+}
+
+.list a:hover .description::before {
+    opacity: 1;
+}
+
+.film-intro {
+    gap: 20px;
+}
+
+.film-intro .dscrkr,
+.film-intro .dscren {
+    word-break: keep-all;
+}
+
+.list a.empty {
+    height: 10px;
+    pointer-events: none;
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    position: relative;
+}
+
+footer p {
+    margin-top: 150px;
+    padding: 60px;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+}
+
+.list .item {
+    padding: 10px 0 10px 15px;
+    width: 80%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list .item:last-child {
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+.guestbook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    margin: 200px 0;
+}
+
+#guestBookForm {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px;
+    
+}
+
+.guestbook h1 {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    
+}
+
+#name {
+    width: 70%;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+/*    border-radius: 25.5px;*/
+    
+}
+
+#message {
+    width: 70%;
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+/*    border-radius: 25.5px;*/
+}
+
+#guestBookForm button {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 30px;
+    padding: 3px 10px;
+    border-radius: 0px;
+    border: 1px solid black;
+    background-color: #ffc000
+}
+
+.guestbook h2 {
+    font-family: "sandoll-jebi2", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+}
+
+#messagesList {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#messagesContainer {
+        display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px;
+}
